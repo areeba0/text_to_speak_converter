@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0B0c10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.hero h1 span {
+    color: #66fcf1;
+}
+
+textarea {
+    width: 800px;
+    height: 350px;
+    border: 3px solid #66fcf1;
+    box-shadow: 0 0 10px #66fcf1;
+    background: #1f2833;
+    font-size: 17px;
+    padding: 20px;
+    outline: none;
+    resize: none;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.row {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+button {
+    background: #1f2833;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    border-radius: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 3px solid #66fcf1;
+    transition: background-color 0.3s, border-color 0.3s; /* Add transition for smooth effect */
+
+    /* Optional: Box shadow for a raised effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    /* Optional: Hover effect */
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #66fcf1; /* Change background color on hover */
+    border-color: #1f2833; /* Change border color on hover */
+}
+
+
+button img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+select {
+    flex: 1;
+    color: white;
+    background: #1f2833;
+    height: 45px;
+    border: 3px solid #66fcf1;
+    padding: 0 20px;
+    appearance: none;
+    outline: none;
+    background-image: url('text_to_speech_converter/images/dropdown.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 96% center;
+}
